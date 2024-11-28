@@ -1,5 +1,5 @@
 body{
-    background-image: url("./download.jpg");
+    background-image: url("./pexels-pixabay-159533.jpg");
     width: 100%; 
     height: 800px;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body{
     margin-top: 250px;
     border: 10px white solid;
     width: 350px; margin-left: 550px;
-  border-radius: 10px;
+    border: solid chartreuse;
 
 }
 .new{
@@ -40,5 +40,8 @@ body{
 }
 .a{
     text-align: center;
+    color: aliceblue;
+}
+.icon{
     color: aliceblue;
 }

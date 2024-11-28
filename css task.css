@@ -1,0 +1,35 @@
+body{
+    background-image: url("./pexels-pixabay-159533.jpg");
+    width: 100%; 
+    height: 800px;
+    background-size: cover;
+    margin-left: 97px;
+}
+.heading{
+    text-align: left;
+    color: white;
+    margin-top: 200px;
+    font-size: 80px;
+
+}
+.two{
+    color: greenyellow;
+    font-size: 60px;
+
+}
+.para{
+    color: aliceblue;
+    width: 500px;
+    
+}
+.icon{
+    color: aliceblue;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    height: 30px; 
+border: none;
+}
