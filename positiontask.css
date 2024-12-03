@@ -1,0 +1,114 @@
+.main{
+    background-color: white;
+    height: 500px;
+
+
+}
+.heading{
+
+}
+.para{
+    width: 300px;
+
+}
+.button{
+
+}
+.img{
+position: relative;
+}
+.img1{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 10px;
+    left: 900px;
+    bottom: 10px;
+
+}
+.img2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 200px;
+    z-index: 5px;
+    border-radius: 50%;
+    bottom: 5px;
+}
+.box{
+    height: 150px;
+    background-color: orange;
+    border-radius: 40px;
+    width: 500px;
+    display: flex;
+    margin-left: 500px;
+    position: absolute;
+    bottom: 300px;
+
+
+
+    
+  
+}
+.sub1{
+    right: 300px;
+    width: 200px;
+
+}
+.sub2{
+    left: 700px;
+    width: 150px;
+
+}
+.sub3{
+
+    left: 400px;
+    width: 150px;
+
+}
+
+.main2{
+    background-color: rgba(0, 0, 0, 0.844);
+    height: 450px;
+    margin-top: 50px;
+    
+}
+.images{
+   
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    padding-top: 110px;
+    justify-content: center;
+
+
+}
+.im1{
+    width: 200px;
+    height: 200px;
+
+
+
+}
+.im2{
+    width: 200px;
+    height: 200px;
+
+
+}
+.im3{
+    width: 200px;
+    height: 200px;
+
+}
+.im4{
+    width: 200px;
+    height: 200px;
+
+}
+.im5{
+    width: 200px;
+    height: 200px;
+
+}
