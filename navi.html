@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .navi{
+            background-color: rgb(0, 21, 255);
+            height: 50px;
+            padding: 17px;
+        }
+        li{
+          display: inline;
+          font-size: 25px;
+          padding: 50px 30px 40px 50px;    
+        }
+
+
+        li:hover{
+            background-color: red;
+            color: greenyellow;
+        }
+
+
+        .drop{
+            position: relative;
+
+
+        }
+        .drop:hover .content{
+            display: block;
+            position: absolute;
+            padding: 50px;
+        }
+        .content{
+            display: none;
+            background-color: greenyellow;
+            width: 30px;
+            top: 120px;
+        }
+        .about{
+            padding-left: 500px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+
+     <ul class="navi">
+         <li>home</li>
+        <li>website</li>
+        <li>contact</li>
+        <div class="drop">
+        <li class="about">about</li>
+        <p class="content">welcome</p>
+
+    </div>
+    </ul>
+    </div>
+</body>
+</html>

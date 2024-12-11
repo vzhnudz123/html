@@ -37,6 +37,11 @@
             font-size: 20px;
             width: 500px;
         }
+        .para:hover{
+            color: greenyellow;
+            background-color: green;
+            opacity: 0.5;
+        }
         *{
             margin: 0;
             padding: 0;
@@ -53,16 +58,18 @@
             height: 40px;
             width: 150px;
             border-radius: 20px;
+            border: solid white 1px;
         }
         .butt{
             background-color: orange;
             color: aliceblue;
-            border: 0px;
+            border: white solid 1px;
             border-radius: 10px;
+            padding: 10px;
         }
         .option{
             background-color: orange;
-            border: 0px;
+            border: solid white 1px;
         }
     select{
         background-color: orange;
@@ -70,14 +77,25 @@
         border: 0px;
         border-radius: 10px;
     }
+    .resto{
+        color: orange;
+        font-size: 40px;
+    }
+    .two:hover .im{
+        transform: rotate(90deg);
+    }
+    .re:hover{
+        color: white;
+    }
+
        
     </style>
 </head>
 <body>
     <div class="main">
     <div class="navbar">
-        <div>
-            <label for="">Restorent</label>
+        <div class="resto">
+            <label class="re" for="">Restorent</label>
         </div>
         <div class="navi2">
             <label for="">Home</label>
@@ -85,7 +103,7 @@
             <label for="">service</label>
             <label for="">menu</label>
             <label for="">pages</label>
-            <select name="" id="">
+            <select class="option" name="" id="">
                 <option  value="">new</option>
                 <option value="">old</option>
             </select>
@@ -101,7 +119,7 @@
         <button class="last">BOOK A TABLE</button>
     </div>
     <div class="two">
-        <img class="im" src="./pexels-rajesh-tp-749235-1603896.jpg" alt="">
+        <img class="im" src="./rest.png" alt="">
     </div>
 </div>
     </div>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Example</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .main {
+            background-image: url("pexels-pixabay-159533.jpg");
+            background-size: cover;
+            height: 790px;
+        }
+        .navi {
+            display: flex;
+            gap: 100px;
+            padding: 30px;
+            background-color: green;
+            justify-content: center;
+            font-size: 25px;
+        }
+        .home:hover {
+            background-color: greenyellow;
+            padding: 10px;
+            height: 20px;
+            color: aliceblue;
+        }
+        .service {
+            position: relative;
+            cursor: pointer;
+        }
+        .gh {
+            display: none; /* Hidden by default */
+            position: absolute;
+            top: 100%; /* Position the dropdown below the "Service" */
+            left: 0;
+            background-color: #f9f9f9;
+            list-style: none;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .service:hover .gh {
+            display: block; /* Show the dropdown on hover */
+        }
+        .gh li {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        .gh li:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navi">
+            <p class="home"><a href="">Home</a></p>
+            <label for="">About us</label>
+            <div>
+                <p class="service">Service</p>
+                <ul class="gh">
+                    <li>Web Designing</li>
+                    <li>Marketing</li>
+                    <li>Mobile App</li>
+                </ul>
+            </div>
+            <label for="">Clients</label>
+            <label for="">Investors</label>
+            <label for="">Pricing</label>
+            <label for="">Training</label>
+            <label for="">Contact</label>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+</html>

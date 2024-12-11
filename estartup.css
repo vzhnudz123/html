@@ -1,0 +1,145 @@
+.main{
+    background-color: aliceblue;
+    height: 770px;
+
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+
+
+}
+.green{
+    margin-left: 70px;
+
+}
+.left{
+    color: rgb(6, 216, 6);
+
+
+}
+.startup{
+
+
+}
+.right{
+    display: flex;
+    gap: 10px;
+
+
+}
+.home{
+    color: rgb(9, 213, 9);
+}
+.content{
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.image{
+
+}
+.img{
+    width: 400px;
+    margin-right: 70px;
+
+
+}
+.sub{
+
+}
+.button{
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(9, 196, 9);
+}
+.icon{
+    margin-left: 10px;
+    color: rgb(15, 199, 15);
+}
+.watch{
+    color: rgb(11, 196, 11);
+}
+.para{
+    width: 400px;
+}
+.main2{
+    display: flex;
+    gap: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.bag1{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.bag2{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bag3{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bag4{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text{
+
+}
+.loc1{
+    color: green;
+    font-size: 50px;
+
+}
+.loc2{
+    color: green;
+font-size: 50px;
+
+}
+.loc3{
+    color: green;
+    font-size: 50px;
+
+}
+.loc4{
+color: green;
+font-size: 50px;
+}
